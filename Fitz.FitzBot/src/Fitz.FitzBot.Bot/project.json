@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Discord.Net.Commands": "1.0.0-rc-00614",
+    "Discord.Net.Core": "1.0.0-rc-00614",
+    "Discord.Net.Rest": "1.0.0-rc-00614",
+    "Discord.Net.WebSocket": "1.0.0-rc-00614",
+    "Fitz.FitzBot.Domain": "1.0.0-*",
+    "Microsoft.NETCore.App": {
+        "type": "platform",
+        "version": "1.0.1"
+    }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
